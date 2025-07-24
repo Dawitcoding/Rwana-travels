@@ -7,19 +7,22 @@ import Destination from "./component/Destination";
 import Gallery from "./component/Gallery";
 import Testimonial from "./component/Testimonial";
 import Contact from "./component/Contact";
+import Navbar from "./component/Navbar";
+import Hero from "./component/Hero";
+import Title from "./component/Title";
+import Footer from "./component/Footer";
 
 const App = () => {
   return (
-    <div className="mx-4 sm:mx-[10%] ">
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/destination" element={<Destination />} />
-        <Route path="/gallery" element={<Gallery />} />
-        <Route path="/testimonial" element={<Testimonial />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+    <div>
+      <Navbar />
+      <Hero />
+      <About />
+      <Services />
+      <Gallery />
+      <Testimonial />
+      <Contact />
+      <Footer />
     </div>
   );
 };
