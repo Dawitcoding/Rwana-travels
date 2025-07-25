@@ -4,7 +4,7 @@ import { assets } from "../assets/assets";
 
 const About = () => {
   return (
-    <div className="mx-4 sm:mx-[10%]">
+    <div className="mx-4 sm:mx-[10%] scroll-mt-25" id="about">
       <Title subTitle="About Us" title="Discover Our Story & Mission" />
       <div className="mt-10 flex flex-col md:flex-row gap-16">
         <img
@@ -29,10 +29,10 @@ const About = () => {
           </p>
           <b className="text-gray-800">Our Vision</b>
           <p>
-            Our vision in Clinix is Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Ut perferendis, commodi saepe dolorem molestiae
-            incidunt. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Quae odio sapiente expedita!
+            Our vision in Rwana Travels is becoming a leading travel partner by
+            delivering exceptional, personalized experiences that connect
+            people, cultures, and destinations through innovation, integrity,
+            and a deep passion for exploration!
           </p>
         </div>
       </div>

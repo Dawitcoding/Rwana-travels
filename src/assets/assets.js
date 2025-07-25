@@ -31,6 +31,11 @@ import user_2 from "./user-2.png";
 import user_3 from "./user-3.png";
 import user_4 from "./user-4.png";
 
+// contacts
+import location from "./location.png";
+import mail from "./mail.png";
+import phone from "./phone.png";
+
 export const assets = {
   logo,
   menu_icon,
@@ -58,6 +63,9 @@ export const assets = {
   user_2,
   user_3,
   user_4,
+  location,
+  mail,
+  phone,
 };
 
 export const specialityData = [

@@ -4,7 +4,7 @@ import { assets } from "../assets/assets";
 
 const Services = () => {
   return (
-    <div className="mx-4 sm:mx-[10%] mb-8">
+    <div className="mx-4 sm:mx-[10%] mb-8 scroll-mt-25" id="services">
       <Title
         subTitle="Our Travel Services"
         title="Tailored Experiences for You"
@@ -33,12 +33,12 @@ const Services = () => {
             alt=""
           />
           <div className="p-4">
-            <h5 className="text-2xl font-bold">Yihha Monment</h5>
+            <h5 className="text-2xl font-bold">Axum City</h5>
             <hr className="text-gray-400 my-3" />
             <div className="flex items-center gap-2 text-sm justify-between text-gray-500 pb-5">
               <p className="text-md  ">3 Days</p>
               <p className="text-md ">Full Package</p>
-              <p className="text-md  ">$27</p>
+              <p className="text-md  ">$30</p>
             </div>
           </div>
         </div>
@@ -49,12 +49,12 @@ const Services = () => {
             alt=""
           />
           <div className="p-4">
-            <h5 className="text-2xl font-bold">Yihha Monment</h5>
+            <h5 className="text-2xl font-bold">Amentilla Afar</h5>
             <hr className="text-gray-400 my-3" />
             <div className="flex items-center gap-2 text-sm justify-between text-gray-500 pb-5">
-              <p className="text-md  ">3 Days</p>
+              <p className="text-md  ">2 Days</p>
               <p className="text-md ">Full Package</p>
-              <p className="text-md  ">$27</p>
+              <p className="text-md  ">$20</p>
             </div>
           </div>
         </div>
@@ -65,12 +65,12 @@ const Services = () => {
             alt=""
           />
           <div className="p-4">
-            <h5 className="text-2xl font-bold">Yihha Monment</h5>
+            <h5 className="text-2xl font-bold">Mekelle Bubbu</h5>
             <hr className="text-gray-400 my-3" />
             <div className="flex items-center gap-2 text-sm justify-between text-gray-500 pb-5">
-              <p className="text-md  ">3 Days</p>
-              <p className="text-md ">Full Package</p>
-              <p className="text-md  ">$27</p>
+              <p className="text-md  ">1 Days</p>
+              <p className="text-md ">Launch</p>
+              <p className="text-md  ">$13</p>
             </div>
           </div>
         </div>
@@ -81,12 +81,12 @@ const Services = () => {
             alt=""
           />
           <div className="p-4">
-            <h5 className="text-2xl font-bold">Yihha Monment</h5>
+            <h5 className="text-2xl font-bold">Gobetat Gerealta </h5>
             <hr className="text-gray-400 my-3" />
             <div className="flex items-center gap-2 text-sm justify-between text-gray-500 pb-5">
-              <p className="text-md  ">3 Days</p>
+              <p className="text-md  ">2 Days</p>
               <p className="text-md ">Full Package</p>
-              <p className="text-md  ">$27</p>
+              <p className="text-md  ">$19</p>
             </div>
           </div>
         </div>
@@ -97,12 +97,12 @@ const Services = () => {
             alt=""
           />
           <div className="p-4">
-            <h5 className="text-2xl font-bold">Yihha Monment</h5>
+            <h5 className="text-2xl font-bold">Korem Amusment</h5>
             <hr className="text-gray-400 my-3" />
             <div className="flex items-center gap-2 text-sm justify-between text-gray-500 pb-5">
               <p className="text-md  ">3 Days</p>
               <p className="text-md ">Full Package</p>
-              <p className="text-md  ">$27</p>
+              <p className="text-md  ">$25</p>
             </div>
           </div>
         </div>
