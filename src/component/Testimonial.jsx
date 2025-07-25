@@ -24,7 +24,7 @@ const Testimonial = () => {
     ],
   };
   return (
-    <div className="mx-4 sm:mx-[10%] scroll-mt-25" id="testimonial">
+    <div className="mx-4 sm:mx-[10%] scroll-mt-30" id="testimonial">
       <Title subTitle="What Our Travelers Say" title="Genuine Experiences" />
       <div className="mt-20"></div>
       <Slider {...settings} className="-z-10">

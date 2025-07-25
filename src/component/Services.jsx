@@ -4,7 +4,7 @@ import { assets } from "../assets/assets";
 
 const Services = () => {
   return (
-    <div className="mx-4 sm:mx-[10%] mb-8 scroll-mt-25" id="services">
+    <div className="mx-4 sm:mx-[10%] mb-8 scroll-mt-30" id="services">
       <Title
         subTitle="Our Travel Services"
         title="Tailored Experiences for You"

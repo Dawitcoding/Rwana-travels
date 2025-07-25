@@ -4,7 +4,7 @@ import { assets } from "../assets/assets";
 
 const Gallery = () => {
   return (
-    <div className="mx-4 sm:mx-[10%] scroll-mt-25" id="gallery">
+    <div className="mx-4 sm:mx-[10%] scroll-mt-30" id="gallery">
       <Title subTitle="Our Travel Moments" title="See What You Miss" />
       <div className="grid grid-cols-auto gap-8 py-20">
         <div className="">

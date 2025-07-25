@@ -4,7 +4,7 @@ import { assets } from "../assets/assets";
 
 const About = () => {
   return (
-    <div className="mx-4 sm:mx-[10%] scroll-mt-25" id="about">
+    <div className="mx-4 sm:mx-[10%] scroll-mt-30" id="about">
       <Title subTitle="About Us" title="Discover Our Story & Mission" />
       <div className="mt-10 flex flex-col md:flex-row gap-16">
         <img

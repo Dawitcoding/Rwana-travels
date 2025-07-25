@@ -4,7 +4,7 @@ import { assets } from "../assets/assets";
 
 const Contact = () => {
   return (
-    <div id="contact" className="mx-4 sm:mx-[10%] mb-30 scroll-mt-25">
+    <div id="contact" className="mx-4 sm:mx-[10%] mb-30 scroll-mt-30">
       {" "}
       <Title subTitle="Get in Touch" title="We Love to Hear from You" />
       <div className="flex flex-col md:flex-row gap-4">
