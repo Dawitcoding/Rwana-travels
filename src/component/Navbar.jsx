@@ -71,21 +71,21 @@ const Navbar = () => {
           />
         </div>
         <ul className="flex flex-col items-start gap-2 mt-5 px-5 text-lg font-medium">
-          <NavLink to="#top" onClick={() => setShowMenu(false)}>
+          <a href="#top" onClick={() => setShowMenu(false)}>
             <p className="px-4 py-2 hover:text-gray-400">HOME</p>
-          </NavLink>
-          <NavLink to="#about" onClick={() => setShowMenu(false)}>
+          </a>
+          <a href="#about" onClick={() => setShowMenu(false)}>
             <p className="px-4 py-2  hover:text-gray-400">About</p>
-          </NavLink>
-          <NavLink to="#services" onClick={() => setShowMenu(false)}>
+          </a>
+          <a href="#services" onClick={() => setShowMenu(false)}>
             <p className="px-4 py-2 hover:text-gray-400">Services</p>
-          </NavLink>
-          <NavLink to="#gallery" onClick={() => setShowMenu(false)}>
+          </a>
+          <a href="#gallery" onClick={() => setShowMenu(false)}>
             <p className="px-4 py-2 hover:text-gray-400">Gallery</p>
-          </NavLink>
-          <NavLink to="#testimonial" onClick={() => setShowMenu(false)}>
+          </a>
+          <a href="#testimonial" onClick={() => setShowMenu(false)}>
             <p className="px-4 py-2 hover:text-gray-400">Testimonial</p>
-          </NavLink>
+          </a>
         </ul>
       </div>
     </div>
